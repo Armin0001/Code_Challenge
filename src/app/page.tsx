@@ -58,9 +58,14 @@ export default function Home() {
   }, [filters, data]);
 
   return (
-    <div className="flex gap-6 p-6 flex-col lg:flex-row">
-      <FilterSidebar filters={filters} onChange={setFilters} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 flex-1">
+    <div className="flex flex-col-reverse lg:flex-row gap-6 p-4 md:p-6">
+      {/* Sidebar at the top on mobile, side on desktop */}
+      <div className="lg:min-w-[250px]">
+        <FilterSidebar filters={filters} onChange={setFilters} />
+      </div>
+
+      {/* Cards Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 flex-1">
         {filtered.length > 0 ? (
           filtered.map((item) => <SkipCard skip={item} key={item["id"]} />)
         ) : (
