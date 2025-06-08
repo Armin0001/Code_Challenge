@@ -12,7 +12,7 @@
 - [Project Workflow and Features](#project-workflow-and-features)
 - [Thanks](#thank-you)
 ---
-## About 
+<h1>About</h1>
 
 This project was made to provide clear and maintainable code for the purpose of redesigning the website. The project contains a third step of the selection process and the current step, the skip selection, has been redesigned as part of the recruitment process.   
 
