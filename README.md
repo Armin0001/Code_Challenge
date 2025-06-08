@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+| Technology | Status                          |
+|------------|--------------------------------|
+| Tailwind   | ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.2-blue?logo=tailwind-css&logoColor=white) |
+| Next.js    | ![Next.js](https://img.shields.io/badge/Next.js-14.0.0-black?logo=next.js&logoColor=white)          |
+| GitHub     | ![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github&logoColor=white)                 |
+| Icons      | ![Icons](https://img.shields.io/badge/Icons-Included-green)                                           |
 
 ## Table of Contents
 
