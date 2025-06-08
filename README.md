@@ -15,11 +15,13 @@
 ## About 
 
 This project was made to provide clear and maintainable code for the purpose of redesigning the website. The project contains a third step of the selection process and the current step, the skip selection, has been redesigned as part of the recruitment process. 
+
 ---
 ## Live Preview
 The website can be previewed over here,
 [Live Link](https://xqs4cz-3000.csb.app/)
 
+---
 ## Getting Started
 
 First, install the dependencies:
@@ -28,7 +30,7 @@ First, install the dependencies:
 npm install
 # or
 npm i
-
+```
 
 Second, run the development server:
 
@@ -40,7 +42,8 @@ yarn dev
 pnpm dev
 # or
 bun dev
-
+```
+---
 ## Project Workflow and Features
 What I've done is, I've first selected the color pallete which I'm going to use. Then I configured that.
 After that has been done, I've selected the fonts. After the fonts have been selected it was time to move on the the next phase, that is
@@ -55,5 +58,6 @@ But there was just one more thing left to do - style everything.
 So I've used the colors, the fonts, from previous steps and made everything look nice.
 The final step was to add in the mobile responsivness and that was it.
 
+---
 ## Thank you
 For your attention. :)
